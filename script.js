@@ -7,7 +7,7 @@ const element1 = document.getElementsByClassName("benefit-item");
     
       element[0].addEventListener("mouseenter", function(){
       smalltext[1].classList.add("get-yellow");
-      console.log("hi");
+      
       
     });
 
@@ -18,7 +18,7 @@ const element1 = document.getElementsByClassName("benefit-item");
     
     element[1].addEventListener("mouseenter", function(){
       smalltext[2].classList.add("get-yellow");
-      console.log("hi");
+      
       
     });
 
@@ -28,7 +28,7 @@ const element1 = document.getElementsByClassName("benefit-item");
     });
     element[2].addEventListener("mouseenter", function(){
       smalltext[3].classList.add("get-yellow");
-      console.log("hi");
+      
       
     });
 
@@ -39,7 +39,7 @@ const element1 = document.getElementsByClassName("benefit-item");
     
     element[3].addEventListener("mouseenter", function(){
       smalltext[4].classList.add("get-yellow");
-      console.log("hi");
+      
       
     });
 
@@ -52,7 +52,7 @@ const element1 = document.getElementsByClassName("benefit-item");
 
     element1[0].addEventListener("mouseenter", function(){
       smalltext[5].classList.add("get-yellow");
-      console.log("hi");
+      
       
     });
 
@@ -63,7 +63,7 @@ const element1 = document.getElementsByClassName("benefit-item");
 
     element1[1].addEventListener("mouseenter", function(){
       smalltext[6].classList.add("get-yellow");
-      console.log("hi");
+      
       
     });
 
@@ -75,7 +75,7 @@ const element1 = document.getElementsByClassName("benefit-item");
 
     element1[2].addEventListener("mouseenter", function(){
       smalltext[7].classList.add("get-yellow");
-      console.log("hi");
+      
       
     });
 
@@ -86,7 +86,7 @@ const element1 = document.getElementsByClassName("benefit-item");
 
     element1[3].addEventListener("mouseenter", function(){
       smalltext[8].classList.add("get-yellow");
-      console.log("hi");
+      
       
     });
 
@@ -97,7 +97,7 @@ const element1 = document.getElementsByClassName("benefit-item");
     
     element1[4].addEventListener("mouseenter", function(){
       smalltext[9].classList.add("get-yellow");
-      console.log("hi");
+      
       
     });
 
@@ -108,7 +108,7 @@ const element1 = document.getElementsByClassName("benefit-item");
 
     element1[5].addEventListener("mouseenter", function(){
       smalltext[10].classList.add("get-yellow");
-      console.log("hi");
+      
       
     });
 
@@ -116,3 +116,9 @@ const element1 = document.getElementsByClassName("benefit-item");
     element1[5].addEventListener("mouseleave", function() {
       smalltext[10].classList.remove("get-yellow");
     });
+
+    const fet2 =  document.getElementsByClassName("benefit-item");
+    fet2[0].addEventListener("mouseenter",function(){
+      this.setAttribute('scale',2);
+    })
+
