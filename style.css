@@ -1363,6 +1363,7 @@
     align-items: center;
     width: 100%;
     padding: 25px;
+    transition: ease-out 0.35s;
   
   }
   
@@ -2269,7 +2270,7 @@
   }
   
   .benefit-item:hover{
-    transition: ease-in 0.1s;
+    transition: ease-in 0.25s;
     scale: 1.15;
   }
   
